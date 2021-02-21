@@ -119,7 +119,7 @@ class MainActivity : AppCompatActivity() {
                             if (foodData1.get(i).dayOfWeek == "Monday") {
                                 if(currentDay!=2) {
                                     nextDay =
-                                            LocalDate.now().with(TemporalAdjusters.next(DayOfWeek.SUNDAY)).dayOfMonth
+                                            LocalDate.now().with(TemporalAdjusters.next(DayOfWeek.MONDAY)).dayOfMonth
                                 }else{
                                     nextDay=Calendar.getInstance().get(Calendar.DAY_OF_MONTH)
                                 }
