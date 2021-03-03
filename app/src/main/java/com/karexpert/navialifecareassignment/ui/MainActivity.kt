@@ -42,6 +42,7 @@ class MainActivity : AppCompatActivity() {
         binding = DataBindingUtil.setContentView(this, R.layout.activity_main)
 
         Log.e("wahe","s")
+        Log.e("wahe","s")
         setupUI()
         setupViewModel()
         setupObservers()
